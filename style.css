@@ -1,0 +1,41 @@
+body{
+color: rgb(30,30,30);
+font-family: Courier;
+}
+
+
+h1{
+color: green;
+font-family: Helvitica;
+font-weight: 900;
+}
+h2{
+color:rgb(100,100,100);
+font-size: 24px,
+font-weight: 500;
+}
+a{
+text-decoration: none;
+color: #6B72E1;
+}
+a: hover {
+color: yellow;
+}
+/*Custom design with class (99% of your design)*/
+.container {
+width:700px;
+margin:40px auto;	
+}
+@media(max-width:500px)
+
+.card-white{
+background-color: white;
+padding: 40px
+box-shadow: 0px 10px  30px rgba(0,0,0.1);
+border-radius: 4px;
+margin:20px 0px;
+text-align: center;
+}
+image-circle{
+border-radius: 50% ;
+}
